@@ -20,6 +20,7 @@ int main(){
 
     printf("%s%17s\n", "Face", "Frequency");
     for (face = 1; face <= SIZE - 1; face++)
-        printf("%4d%17d\n", face, frequency[face]);
+        printf("%4d%17d\n", face, frequency[face]);   
+   
     return 0;
 }
